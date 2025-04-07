@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Checkout - DAWA RAHISI</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">DAWA</a> RAHISI</h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="cart.php">Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Section for Checkout -->
+        <section id="main" class="container">
+            <header class="major">
+                <h2>Checkout</h2>
+                <p>Provide your details for delivery and payment.</p>
+            </header>
+
+            <div class="box">
+                <form method="post" action="process_checkout.php">
+                    <div class="row gtr-50 gtr-uniform">
+                        <div class="col-6 col-12-mobilep">
+                            <input type="text" name="name" id="name" placeholder="Full Name" required />
+                        </div>
+                        <div class="col-6 col-12-mobilep">
+                            <input type="email" name="email" id="email" placeholder="Email Address" required />
+                        </div>
+                        <div class="col-6 col-12-mobilep">
+                            <input type="text" name="address" id="address" placeholder="Delivery Address" required />
+                        </div>
+                        <div class="col-6 col-12-mobilep">
+                            <input type="text" name="phone" id="phone" placeholder="Phone Number" required />
+                        </div>
+                        <div class="col-12">
+                            <ul class="actions special">
+                                <li><input type="submit" value="Complete Purchase" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <li>&copy; DAWA RAHISI. All rights reserved.</li>
+            </ul>
+        </footer>
+
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

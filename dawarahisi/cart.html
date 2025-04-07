@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Shopping Cart - DAWA RAHISI</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">DAWA</a> RAHISI</h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Section for Cart -->
+        <section id="main" class="container">
+            <header class="major">
+                <h2>Your Cart</h2>
+                <p>Items you have added to your cart.</p>
+            </header>
+
+            <div class="box">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example Cart Item -->
+                        <tr>
+                            <td>Product Name 1</td>
+                            <td>1</td>
+                            <td>$10.00</td>
+                            <td>$10.00</td>
+                            <td><a href="remove_from_cart.php?id=1" class="button">Remove</a></td>
+                        </tr>
+                        <tr>
+                            <td>Product Name 2</td>
+                            <td>2</td>
+                            <td>$15.00</td>
+                            <td>$30.00</td>
+                            <td><a href="remove_from_cart.php?id=2" class="button">Remove</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="checkout.html" class="button special">Proceed to Checkout</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <li>&copy; DAWA RAHISI. All rights reserved.</li>
+            </ul>
+        </footer>
+
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
